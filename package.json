@@ -1,0 +1,30 @@
+{
+  "name": "lcdwriter",
+  "version": "1.0.0",
+  "description": "A Node.js REST service to drive an 16x2 LCD",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "@siliconchris",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "lcd": "^1.1.1",
+    "tiny-router": "^0.1.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siliconchris1973/LCDWriter.git"
+  },
+  "keywords": [
+    "LCD",
+    "Node.js",
+    "HD44780",
+    "REST"
+  ],
+  "bugs": {
+    "url": "https://github.com/siliconchris1973/LCDWriter/issues"
+  },
+  "homepage": "https://github.com/siliconchris1973/LCDWriter#readme"
+}
