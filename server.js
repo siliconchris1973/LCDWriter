@@ -20,6 +20,15 @@ router.get('/', function(req, res) {
   });
 });
 
+router.get('/txtmessage', function(req, res) {
+	  fs.readFile('./txtmessage.html', 'utf8', function(err, contents) {
+	    if (err) {
+	      return console.log(err);
+	    }
+	    res.send(contents);
+	  });
+	});
+
 router.get('/print/{text}', function(req, res) {
   var text = req.body.text;
   lcd.clear();
@@ -38,39 +47,24 @@ console.log('Server listening on port 2000');
 var timer;
 
 function print(str, pos) {
-
   pos = pos || 0;
-
   timer = setTimeout(function() {
-
     if (pos === str.length - 1) {
-
       clearTimeout(timer);
-
       str = '';
-
     } else {
-
       print(str, pos + 1);
-
     }
-
   }, 300);
-
   lcd.print(str[pos]);
-
 }
 
 // If ctrl+c is hit, clear, free resources and exit.
-
 process.on('SIGINT', function() {
-
   lcd.clear();
-
   lcd.close();
 
   process.exit();
-
 });
 
 

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="node_modules/lcd/node_modules/onoff/node_modules/epoll/node_modules/nan/|node_modules/lcd/node_modules/q/|node_modules/lcd/test/|node_modules/lcd/node_modules/onoff/node_modules/epoll/node_modules/bindings/|node_modules/lcd/node_modules/onoff/examples/|node_modules/lcd/node_modules/onoff/test/|node_modules/lcd/node_modules/onoff/|node_modules/lcd/node_modules/onoff/node_modules/epoll/test/|node_modules/lcd/|node_modules/lcd/node_modules/onoff/node_modules/epoll/example/interrupts-per-second/|node_modules/lcd/node_modules/onoff/node_modules/epoll/example/watch-button/|node_modules/lcd/example/|node_modules/lcd/node_modules/onoff/node_modules/epoll/|node_modules/lcd/tests/" kind="src" path=""/>
+	<classpathentry excluding="node_modules/onoff/node_modules/epoll/node_modules/nan/|node_modules/q/|test/|node_modules/onoff/node_modules/epoll/node_modules/bindings/|node_modules/onoff/examples/|node_modules/onoff/test/|node_modules/onoff/|node_modules/onoff/node_modules/epoll/test/|node_modules/onoff/node_modules/epoll/example/interrupts-per-second/|node_modules/onoff/node_modules/epoll/example/watch-button/|example/|node_modules/onoff/node_modules/epoll/|tests/" kind="src" path="node_modules/lcd"/>
+	<classpathentry kind="src" path="node_modules/lcd/example"/>
+	<classpathentry excluding="node_modules/epoll/node_modules/nan/|node_modules/epoll/node_modules/bindings/|examples/|test/|node_modules/epoll/test/|node_modules/epoll/example/interrupts-per-second/|node_modules/epoll/example/watch-button/|node_modules/epoll/" kind="src" path="node_modules/lcd/node_modules/onoff"/>
+	<classpathentry kind="src" path="node_modules/lcd/node_modules/onoff/examples"/>
+	<classpathentry excluding="node_modules/nan/|node_modules/bindings/|test/|example/interrupts-per-second/|example/watch-button/" kind="src" path="node_modules/lcd/node_modules/onoff/node_modules/epoll"/>
+	<classpathentry kind="src" path="node_modules/lcd/node_modules/onoff/node_modules/epoll/example/interrupts-per-second"/>
+	<classpathentry kind="src" path="node_modules/lcd/node_modules/onoff/node_modules/epoll/example/watch-button"/>
+	<classpathentry kind="src" path="node_modules/lcd/node_modules/onoff/node_modules/epoll/node_modules/bindings"/>
+	<classpathentry kind="src" path="node_modules/lcd/node_modules/onoff/node_modules/epoll/node_modules/nan"/>
+	<classpathentry kind="src" path="node_modules/lcd/node_modules/onoff/node_modules/epoll/test"/>
+	<classpathentry kind="src" path="node_modules/lcd/node_modules/onoff/test"/>
+	<classpathentry kind="src" path="node_modules/lcd/node_modules/q"/>
+	<classpathentry kind="src" path="node_modules/lcd/test"/>
+	<classpathentry kind="src" path="node_modules/lcd/tests"/>
+	<classpathentry kind="con" path="org.eclipse.wst.jsdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path=""/>
+</classpath>
